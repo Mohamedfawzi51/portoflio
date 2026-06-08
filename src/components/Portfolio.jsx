@@ -1,36 +1,36 @@
 import React from "react";
-import api from "../assets/portfolio/api.jpg";
-import apod from "../assets/portfolio/apod.jpg";
+import lumina from "../assets/portfolio/lumina.png";
+import clinic from "../assets/portfolio/clinic.png";
 import iptracker from "../assets/portfolio/iptracker.jpg";
 import nftportal from "../assets/portfolio/nftportal.jpg";
-import webpostman from "../assets/portfolio/webpostman.jpg";
-import waveportal from "../assets/portfolio/waveportal.jpg";
+import taraf from "../assets/portfolio/taraf.png";
+import estate from "../assets/portfolio/real-estate.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: api,
-      link: 'https://crypto-info-api.cyclic.app/',
-      repo: 'https://github.com/rahulkarda/crypto-info-api'
+      src: lumina,
+      link: 'https://lumina-tech-seven.vercel.app/',
+      repo: 'https://github.com/Mohamedfawzi51/lumina-tech'
     },
     {
       id: 2,
-      src: webpostman,
-      link: 'https://webpostman.netlify.app/',
-      repo: 'https://github.com/rahulkarda/Web-Postman'
+      src: taraf,
+      link: 'https://taraf-eta.vercel.app/',
+      repo: 'https://github.com/Mohamedfawzi51/Taraf'
     },
     {
       id: 3,
-      src: apod,
-      link: 'https://apodbyrahul.netlify.app/',
-      repo: 'https://github.com/rahulkarda/NASA-APOD'
+      src: clinic,
+      link: 'https://clinic-app-nine-zeta.vercel.app/',
+      repo: 'https://github.com/Mohamedfawzi51/clinic-app'
     },
     {
       id: 4,
-      src: waveportal,
-      link: 'https://waveatrahul.netlify.app/',
-      repo: 'https://github.com/rahulkarda/Wave-Portal'
+      src: estate,
+      link: 'https://real-estate-app-sandy-ten.vercel.app/ar',
+      repo: 'https://github.com/Mohamedfawzi51/real-estate-app'
     },
     {
       id: 5,
@@ -65,7 +65,7 @@ const Portfolio = () => {
               <img
                 src={src}
                 alt="projects"
-                className="rounded-md duration-200 hover:scale-105"
+                className="rounded-md duration-200 hover:scale-105 object-cover h-48 w-full"
               />
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={ () => window.open(link, '_blank')}>
