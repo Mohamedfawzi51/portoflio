@@ -1,8 +1,6 @@
 import React from "react";
 import lumina from "../assets/portfolio/lumina.png";
 import clinic from "../assets/portfolio/clinic.png";
-import iptracker from "../assets/portfolio/iptracker.jpg";
-import nftportal from "../assets/portfolio/nftportal.jpg";
 import taraf from "../assets/portfolio/taraf.png";
 import estate from "../assets/portfolio/real-estate.png";
 
@@ -31,18 +29,6 @@ const Portfolio = () => {
       src: estate,
       link: 'https://real-estate-app-sandy-ten.vercel.app/ar',
       repo: 'https://github.com/Mohamedfawzi51/real-estate-app'
-    },
-    {
-      id: 5,
-      src: nftportal,
-      link: 'https://nftportalbyrahul.netlify.app/',
-      repo: 'https://github.com/rahulkarda/NFT-Portal'
-    },
-    {
-      id: 6,
-      src: iptracker,
-      link: 'https://trackmyip.netlify.app/',
-      repo: 'https://github.com/rahulkarda/IP-Address-Tracker'
     },
   ];
 
