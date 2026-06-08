@@ -3,6 +3,7 @@ import lumina from "../assets/portfolio/lumina.png";
 import clinic from "../assets/portfolio/clinic.png";
 import taraf from "../assets/portfolio/taraf.png";
 import estate from "../assets/portfolio/real-estate.png";
+import tourism from "../assets/portfolio/tourism.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -29,6 +30,12 @@ const Portfolio = () => {
       src: estate,
       link: 'https://real-estate-app-sandy-ten.vercel.app/ar',
       repo: 'https://github.com/Mohamedfawzi51/real-estate-app'
+    },
+    {
+      id: 5,
+      src: tourism,
+      link: 'https://tourism-app-puce.vercel.app/en/homes',
+      repo: 'https://github.com/Mohamedfawzi51/tourism-app'
     },
   ];
 
