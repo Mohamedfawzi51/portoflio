@@ -13,7 +13,7 @@ const About = () => {
 				</div>
 
 				<p className="text-xl mt-5">
-					I’m a Web Developer with 4 years of experience in both frontend and
+					I’m a Web Developer with 5 years of experience in both frontend and
 					backend development. Passionate about learning new technologies and
 					building high-quality, user-focused web solutions.
 				</p>

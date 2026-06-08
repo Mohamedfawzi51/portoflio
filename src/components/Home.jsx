@@ -20,14 +20,13 @@ const Home = () => {
 						I'm a Full Stack Web Developer
 					</h2>
 					<p className="text-gray-500 py-4 max-w-md">
-						I’m a Full Stack Developer specializing in building modern,
-						responsive, and high-performance web applications. I have strong
-						experience in both front-end and back-end development using
-						technologies like Laravel, Angular, React, and Tailwind CSS. I focus
-						on writing clean, scalable code and creating solutions that are
-						optimized for both functionality and user experience. My goal is to
-						help clients turn their ideas into successful digital products — on
-						time and with exceptional quality.
+			Full Stack Developer with 5 years of experience designing and developing scalable, high-performance web 
+applications using Angular, React.js, Node.js, and cloud-native technologies. Experienced in building 
+enterprise-grade platforms, admin dashboards, workflow management systems, and AI-powered 
+applications with strong expertise in frontend architecture, backend development, API integration, and 
+database design. Specialized in leveraging AI coding agents and modern development workflows to 
+accelerate SDLC, automate complex implementations, and seamlessly integrate AI-powered solutions into 
+business-critical applications and enterprise workflows
 					</p>
 
 					<div className="portfolio-btn">

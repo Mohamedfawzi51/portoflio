@@ -4,11 +4,11 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
-import laravel from "../assets/laravel.png";
+import express from "../assets/express.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import angular from "../assets/angular.png";
-import redux from "../assets/redux.png";
+import next from "../assets/nextjs.png";
 const Experience = () => {
 	const techs = [
 		{
@@ -43,8 +43,8 @@ const Experience = () => {
 		},
 		{
 			id: 6,
-			src: laravel,
-			title: "Laravel",
+			src: express,
+			title: "Express",
 			style: "shadow-white"
 		},
 
@@ -62,8 +62,8 @@ const Experience = () => {
 		},
 		{
 			id: 12,
-			src: redux,
-			title: "Redux",
+			src: next,
+			title: "Next.js",
 			style: "shadow-purple-500"
 		}
 	];
