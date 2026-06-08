@@ -1,6 +1,6 @@
 import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import resume from "../assets/resume.pdf";
+import resume from "../assets/Mohamed Fawzi Ismail.pdf";
 const SocialLinks = () => {
 	const links = [
 		{
